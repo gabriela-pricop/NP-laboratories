@@ -2,6 +2,7 @@
 using System.Threading;
 using lab1;
 using lab1.task1;
+using Lab1.Task2;
 
 if (args.Length == 3 && args[0] == Task1A.WorkerFlag)
 {
@@ -17,7 +18,7 @@ if (args.Length == 3 && args[0] == Task1C.WorkerFlag)
 
 // IExample example = new Task1A();
 // IExample example = new Task1B();
+// IExample example = new Task2();
  IExample example = new Task1C();
-
 
 example.Run();

@@ -1,0 +1,10 @@
+bin/
+obj/
+out/
+.vs/
+.idea/
+*.user
+*.suo
+*.class
+stock.state
+stock.state.tmp
